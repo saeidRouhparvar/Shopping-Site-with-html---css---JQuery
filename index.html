@@ -6,12 +6,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shopping Site</title>
     <link rel="stylesheet" href="css/style.css" />
+    <link type="text/css" rel="stylesheet" href="css/lightslider.css" />
+    <script src="js/JQuery.js"></script>
+    <script src="js/lightslider.js"></script>
+
+
+
     <!-- fav-Icon -->
     <link rel="shortcut icon" href="img/images/fav-icon.png" />
     <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
+
+
   </head>
   <body>
     <!-- navigation -->
@@ -86,7 +94,12 @@
             name="email"
             required
           />
-          <input type="password" placeholder="رمز عبور" name="password" required/>
+          <input
+            type="password"
+            placeholder="رمز عبور"
+            name="password"
+            required
+          />
           <button type="submit">ورود</button>
         </form>
         <div class="form-btns">
@@ -108,8 +121,18 @@
             name="email"
             required
           />
-          <input type="text" placeholder="نام و نام خانوادگی" name="fullname" required/>
-          <input type="password" placeholder="رمز عبور" name="password" required/>
+          <input
+            type="text"
+            placeholder="نام و نام خانوادگی"
+            name="fullname"
+            required
+          />
+          <input
+            type="password"
+            placeholder="رمز عبور"
+            name="password"
+            required
+          />
           <button type="submit">ثبت نام</button>
         </form>
         <div class="form-btns">
@@ -118,7 +141,53 @@
       </div>
     </section>
 
-    <script src="js/JQuery.js"></script>
+    <!-- Full-Slider -->
+
+    <ul id="adaptive" class="cs-hidden">
+      <li class="item-a">
+        <section class="full-slider-box f-slide-1">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>پیشنهاد محدود</span>
+              <strong
+                >30 درصد <br />
+                تخفیف <font>با کد تبلیغاتی</font></strong
+              >
+              <a href="#" class="f-slider-btn">اکنون خرید کنید </a>
+            </div>
+          </div>
+        </section>
+      </li>
+      <li class="item-a">
+        <section class="full-slider-box f-slide-2">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>پیشنهاد محدود</span>
+              <strong
+                >30 درصد <br />
+                تخفیف <font>با کد تبلیغاتی</font></strong
+              >
+              <a href="#" class="f-slider-btn">اکنون خرید کنید </a>
+            </div>
+          </div>
+        </section>
+      </li>
+      <li class="item-a">
+        <section class="full-slider-box f-slide-3">
+          <div class="slider-text-container">
+            <div class="f-slider-text">
+              <span>پیشنهاد محدود</span>
+              <strong
+                >30 درصد <br />
+                تخفیف <font>با کد تبلیغاتی</font></strong
+              >
+              <a href="#" class="f-slider-btn">اکنون خرید کنید </a>
+            </div>
+          </div>
+        </section>
+      </li>
+    </ul>
+
     <script src="js/script.js"></script>
   </body>
 </html>
