@@ -13,43 +13,64 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
   </head>
-  <body >
+  <body>
     <!-- navigation -->
     <nav>
       <!-- social-link-&-phone-number -->
       <div class="social-call">
         <div class="social">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-youtube"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
+          <a href="#"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="#"><i class="fab fa-youtube"></i></a>
+          <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
         <div class="phone">
-            <span>تماس: 09141245860</span>
+          <span>تماس: 09141245860</span>
         </div>
       </div>
 
       <!-- menu -->
       <div class="navigation">
-        <a href="#" class="logo">
-            <img src="img/images/logo.png" alt="">
-        </a>
-
-        <ul class="menu">
-            <li><a href="#">خانه</a></li>
-            <li><a href="#">مردانه</a></li>
-            <li><a href="#">زنانه</a></li>
-            <li><a href="#">بچه گانه</a></li>
-            <li><a href="#">فروشگاه</a></li>
-        </ul>
-        
-        <!-- left-menu -->
         <div class="left-menu">
-            <a href="#"><i class="fas fa-search"></i></a>
-            <a href="#"><i class="far fa-user"></i></a>
-            <a href="#"><i class="fas fa-shopping-cart"></i></a>
+          <a href="#">
+            <i class="fas fa-shopping-cart">
+              <span class="num-cart-product">0</span>
+            </i>
+          </a>
+          <a href="#"><i class="far fa-user"></i></a>
+          <a href="#" class="search"><i class="fas fa-search"></i></a>
         </div>
+
+        <!-- left-menu -->
+        <ul class="menu">
+          <li><a href="#">خانه</a></li>
+          <li>
+            <a href="#"
+              >مردانه
+              <span class="sale-lable">حراج</span>
+            </a>
+          </li>
+          <li><a href="#">زنانه</a></li>
+          <li><a href="#">بچه گانه</a></li>
+          <li><a href="#">فروشگاه</a></li>
+        </ul>
+        <a href="#" class="logo">
+          <img src="img/images/logo.png" alt="" />
+        </a>
       </div>
     </nav>
+
+    <!-- Search-Bar -->
+    <section class="search-bar">
+        <div class="search-input">
+            <input type="text" placeholder="جستجوی محصول">
+            <a href="#" class="search-cancel">
+                <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </section>
+
+    <script src="js/JQuery.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>
