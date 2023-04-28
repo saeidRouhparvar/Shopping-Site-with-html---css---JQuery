@@ -37,7 +37,7 @@
               <span class="num-cart-product">0</span>
             </i>
           </a>
-          <a href="#"><i class="far fa-user"></i></a>
+          <a href="#" class="user"><i class="far fa-user"></i></a>
           <a href="#" class="search"><i class="fas fa-search"></i></a>
         </div>
 
@@ -62,12 +62,60 @@
 
     <!-- Search-Bar -->
     <section class="search-bar">
-        <div class="search-input">
-            <input type="text" placeholder="جستجوی محصول">
-            <a href="#" class="search-cancel">
-                <i class="fas fa-times"></i>
-            </a>
+      <div class="search-input">
+        <input type="text" placeholder="جستجوی محصول" />
+        <a href="#" class="search-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+      </div>
+    </section>
+
+    <!-- Login-Form -->
+    <section class="form">
+      <!-- Sign-in -->
+      <div class="login-form">
+        <a href="#" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>ورود</strong>
+        <form>
+          <input
+            id="email"
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input type="password" placeholder="رمز عبور" name="password" required/>
+          <button type="submit">ورود</button>
+        </form>
+        <div class="form-btns">
+          <a href="#" class="forget">رمز عبور خود را فراموش کرده اید؟</a>
+          <a href="#" class="sign-up-btn">ثبت نام</a>
         </div>
+      </div>
+      <!-- Sign-up -->
+      <div class="sign-up-form">
+        <a href="#" class="form-cancel">
+          <i class="fas fa-times"></i>
+        </a>
+        <strong>ثبت نام</strong>
+        <form>
+          <input
+            id="email"
+            type="email"
+            placeholder="Example@gmail.com"
+            name="email"
+            required
+          />
+          <input type="text" placeholder="نام و نام خانوادگی" name="fullname" required/>
+          <input type="password" placeholder="رمز عبور" name="password" required/>
+          <button type="submit">ثبت نام</button>
+        </form>
+        <div class="form-btns">
+          <a href="#" class="already-account">قبلا ثبت نام کرده اید؟</a>
+        </div>
+      </div>
     </section>
 
     <script src="js/JQuery.js"></script>
