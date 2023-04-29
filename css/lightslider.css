@@ -81,6 +81,7 @@
     cursor: pointer;
     display: inline-block;
     padding: 0 5px;
+  /* display: none; */
 }
 .lSSlideOuter .lSPager.lSpg > li a {
     background-color: #222222;
